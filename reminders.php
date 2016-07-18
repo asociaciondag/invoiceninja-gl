@@ -13,12 +13,12 @@ return array(
     |
     */
 
-    "password" => "As contrasinais deben conter polo menos 6 caracteres e coincidir.",
+    "password" => "As contrasinais deben coincider e conter polo menos 6 caracteres.",
 
-    "user"     => "Non se pode atopar un usuario con ese correo electrónico.",
+    "user"     => "Non se atopou un usuario con ese correo electrónico.",
 
-    "token"    => "Este token de recuperación de contasinal es inválido.",
+    "token"    => "O token para recuperar a contasinal non é válido.",
 
-    "sent"     => "¡Recordatorio de contrasinal enviado!",
+    "sent"     => "Recuperación de contrasinal enviado!",
 
 );

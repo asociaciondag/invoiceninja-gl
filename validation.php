@@ -58,9 +58,7 @@ return array(
     "required"         => "O campo :attribute é obrigatorio.",
     "required_if"      => "O campo :attribute é obrigatorio cando :other é :value.",
     "required_with"    => "O campo :attribute é obrigatorio cando :values está presente.",
-    "required_with_all" => "O campo :attribute é obrigatorio cando :values está presente.",
     "required_without" => "O campo :attribute é obrigatorio cando :values non está presente.",
-    "required_without_all" => "O campo :attribute é obrigatorio cando ningún :values está presente.",
     "same"             => ":attribute e :other deben coincidir.",
     "size"             => array(
         "numeric" => "O tamaño de :attribute debe ser :size.",
@@ -89,11 +87,7 @@ return array(
     |
     */
 
-    'custom' => array(
-        'attribute-name' => array(
-            'rule-name' => 'custom-message',
-        ),
-    ),
+    'custom' => array(),
 
     /*
     |--------------------------------------------------------------------------

@@ -16,4 +16,10 @@ Edita manualmente a base de datos, engadindo o idioma na táboa `languages`:
 INSERT INTO languages (name, locale) VALUES ('Galician', 'gl');
 ```
 
+Borrar a caché da aplicación:
+
+```sh
+php artisan cache:clear
+```
+
 Listo, xa podes escoller o idioma nas preferencias da aplicación.
